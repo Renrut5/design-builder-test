@@ -23,4 +23,4 @@ class TestDesignJob(DesignJob):
         context_class = NonNetworkDesignContext
 
 name = "Test Design"
-# register_jobs(TestDesignJob)
+register_jobs(TestDesignJob)
