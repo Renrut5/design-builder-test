@@ -22,6 +22,5 @@ class TestDesignJob(DesignJob):
         design_file = "designs/0001_design.yaml.j2"
         context_class = NonNetworkDesignContext
 
-
 name = "Test Design"
-register_jobs(TestDesignJob)
+# register_jobs(TestDesignJob)
